@@ -9,4 +9,4 @@ PS.记录下华擎主板的坑，Win10系统的话，电源管理中的快速启
 20191229：配置ROS+Openwrt成功全局科学上网，Netflix可能是下一步的操作了。继续折~~~哦不，加油！  
 20200205：等待了1个春节假期后封闭在家，PVE主机终于配置成功。目前已配置Centos8做为Openwrt的编译机器，OMV作为PT下载机，挂载原来的硬盘并直通。目前机器的日常资源占用10%左右，还是很大潜力可以挖掘的。战“疫”必胜！  
 20200217：重新定制了一版Lean大的Openwrt，IPTV的草还是慢慢再长，不知道旁路由能不能实现IGMP转HTTP和UDP播放。貌似老毛子的固件直接就有这个定制的功能，原始的Openwrt还是需要折腾一下，需要学习呃！  
-20200220：PVE添加WinServer2019和Win10LTSC。用Qbittorrent感觉比Transmission要好用，习惯这个东西真的很难改，或者说自己学习Linux烦了懒。某超大种子添加进Transmission后，直接把Daemon的服务给干掉了，用Qbittorrent就没这个问题。
+20200220：PVE添加WinServer2019和Win10LTSC。用Qbittorrent感觉比Transmission要好用，习惯这个东西真的很难改，或者说自己学习Linux烦了懒。某超大种子添加进Transmission后，直接把Daemon的服务给干掉了，用Qbittorrent就没这个问题。另外，N年前买的WD20EUR和EAR绿盘真的不能再用了，不管是主力机还是挂在PVE下面做下载盘，都不能满足500M带宽的冲击，缓存满了写入速度就断崖下跌，准备出掉了。  
