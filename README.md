@@ -11,4 +11,5 @@ PS.记录下华擎主板的坑，Win10系统的话，电源管理中的快速启
 20200217：重新定制了一版Lean大的Openwrt，IPTV的草还是慢慢再长，不知道旁路由能不能实现IGMP转HTTP和UDP播放。貌似老毛子的固件直接就有这个定制的功能，原始的Openwrt还是需要折腾一下，需要学习呃！  
 20200220：PVE添加WinServer2019和Win10LTSC。用Qbittorrent感觉比Transmission要好用，习惯这个东西真的很难改，或者说自己学习Linux烦了懒。某超大种子添加进Transmission后，直接把Daemon的服务给干掉了，用Qbittorrent就没这个问题。另外，N年前买的WD20EUR和EAR绿盘真的不能再用了，不管是主力机还是挂在PVE下面做下载盘，都不能满足500M带宽的冲击，缓存满了写入速度就断崖下跌，准备出掉了。  
 20200304：手贱的代价就是一套UBNT！没好好学习ROS的HOTSPOTS配置就直接在本地桥接接口上QuickSet了，直接导致进不去Winbox，SSH也不行。等到JD的UBNT全家桶到了，一阵操作，折腾LAN2没搞定，还是从主路由CRS326连到Switch 8 POE-150W,算是稳定了。接下来就是配置NAT端口，防火墙规则。折腾！！！！！！  
-20200419：Freenas的网站经常抽风打不开，离线升级11.3-U2版本还需要关停服务，Freebsd不懂。换Windows server 2019 DataCenter，重新同步备份。学习是很重要的事。  
+20200419：Freenas的网站经常抽风打不开，离线升级11.3-U2版本还需要关停服务，Freebsd不懂。换Windows server 2019 DataCenter，重新同步备份。学习是很重要的事。
+20201124：添加DS380两块硬盘后，重回ZFS文件系统，体验下TrueNAS Core，比11.3确实流畅许多，而且逻辑上ACL更人性化一些，11.X版本的新界面感觉是个过渡版本，到了12才算好用一些。可能是FreeBSD系统本身需要更多的优化，而且对于WEB管理的中间件支持更多的是依靠ixsystem进行改进，各种BUG还是很多。以后Core和Scale都是社区版本，不知道到时Debian为基础的咋样！期待！
